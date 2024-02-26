@@ -27,6 +27,8 @@ favoriteFoods.push(addedFood);
 foodElement.innerHTML += `<br>${favoriteFoods.join(", ")}`;
 favoriteFoods.shift();
 foodElement.innerHTML += `<br>${favoriteFoods.join(", ")}`;
+favoriteFoods.pop();
+foodElement.innerHTML += `<br>${favoriteFoods.join(", ")}`;
 
 
 
